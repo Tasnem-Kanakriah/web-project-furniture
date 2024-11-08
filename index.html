@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="furniture-wrapper">
+            <div class="furniture-search">
+                <h2 class="title">Find the right Furniture For Your Home</h2>
+                <blockquote>
+                    Real furniture is not just pieces, it is the foundation for every design detail.
+                    <br>
+                    <cite>- Ella Oliver</cite>
+                </blockquote>
+                <div class="furniture-search-box">
+                    <input type="text" class="search-control" id="search-input" placeholder="Enter Your Piece Name">
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+
+                </div>
+            </div>
+            <!-- Start Furniture Result -->
+            <div class="furniture-result">
+                <h2 class="title">Your Search Results :</h2>
+                <div id="furniture">
+                </div>
+            </div>
+            <!-- End furniture Result -->
+
+            <div class="furniture-details">
+                <!-- details close btn -->
+                <button type="button" class="btn close-btn" id="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="furniture-details-content">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
